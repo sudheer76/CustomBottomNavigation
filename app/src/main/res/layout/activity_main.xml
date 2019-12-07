@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.hashcodes.bottomnavigation.SpaceNavigation.SpaceNavigationView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:centre_part_linear="false"
+        app:inactive_item_color="@color/colorAccent"
+        app:space_background_color="@color/white"
+        app:active_item_color="@color/darkyellow"
+        app:centre_button_icon="@drawable/search"
+        app:layout_behavior="com.hashcodes.bottomnavigation.SpaceNavigation.SpaceNavigationViewBehavior"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>
