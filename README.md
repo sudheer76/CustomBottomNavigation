@@ -28,6 +28,25 @@ add this code into build.gradle(Project:yourProjectName)
 }
     
     
+    
+     <com.hashcodes.bottomnavigation.SpaceNavigation.SpaceNavigationView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:centre_part_linear="false"
+        app:inactive_item_color="@color/colorAccent"
+        app:space_background_color="@color/white"
+        app:active_item_color="@color/darkyellow"
+        app:centre_button_icon="@drawable/search"
+        app:layout_behavior="com.hashcodes.bottomnavigation.SpaceNavigation.SpaceNavigationViewBehavior"
+        tools:ignore="MissingConstraints" />
+        
+        
+        
+        
+    
 
           // put these lines in styles.xml section to change navigation buttons color into white   
           
