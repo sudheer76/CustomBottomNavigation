@@ -57,18 +57,31 @@ add this code into build.gradle(Project:yourProjectName)
         package com.hashcodes.test;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.fragment.app.FragmentTransaction;
+
 import android.os.Bundle;
+
 import android.widget.FrameLayout;
+
 import android.widget.Toast;
+
 import com.hashcodes.bottomnavigation.SpaceNavigation.SpaceItem;
+
 import com.hashcodes.bottomnavigation.SpaceNavigation.SpaceNavigationView;
+
 import com.hashcodes.bottomnavigation.SpaceNavigation.SpaceOnClickListener;
+
 import com.hashcodes.test.Fragments.Cart;
+
 import com.hashcodes.test.Fragments.HelpDesk;
+
 import com.hashcodes.test.Fragments.Home;
+
 import com.hashcodes.test.Fragments.Profile;
+
 import com.hashcodes.test.Fragments.Search;
+
 
 /**
  * Code written by Sudheer on 06.12.2019
