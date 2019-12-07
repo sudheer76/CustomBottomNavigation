@@ -2,7 +2,7 @@
 ![alt text](https://github.com/sudheer76/CustomBottomNavigation/blob/master/screenshot.jpg)
 
 
-implement this dependency into build.gradle(Module:app)
+add this dependency into build.gradle(Module:app)
 
 
 
@@ -10,7 +10,7 @@ implement this dependency into build.gradle(Module:app)
   *  implementation 'com.github.sudheer76:BottomNavigation:1.1.1'
 }
 
-
+add this code into build.gradle(Project:yourProjectName)
      
    *  allprojects {
      
