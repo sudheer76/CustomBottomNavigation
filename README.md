@@ -89,9 +89,13 @@ import com.hashcodes.test.Fragments.Search;
 
 
 public class MainActivity extends AppCompatActivity {
+
     private SpaceNavigationView spaceNavigationView;
+    
     private FragmentTransaction fragmentTransaction;
+    
     private FrameLayout fragmentContainer;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
