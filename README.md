@@ -169,13 +169,23 @@ public class MainActivity extends AppCompatActivity {
 *  Color.xml
 
 colorPrimary      #008577
+
 colorPrimaryDark  #FFD740
+
 colorAccent       #868686
+
 yellow            #FFD740
+
 darkyellow        #FFC505
+
 lightyellow       #FFE58B
+
 LightGray         #F1F1F1
+
 transprent        #00FFFFFF
+
 Grey              #b8b8b8
+
 white             #ffffff
+
 
